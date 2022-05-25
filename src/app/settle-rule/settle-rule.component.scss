@@ -1,0 +1,44 @@
+.table-header,
+.table-body {
+  .check {
+    padding: 0.1rem;
+  }
+  .id {
+    min-width: 5rem;
+  }
+  .cid {
+    min-width: 10rem;
+  }
+  .channel-type {
+    min-width: 15rem;
+  }
+  .payment-method {
+    min-width: 10rem;
+  }
+  .desc {
+    min-width: 20rem;
+  }
+  .business {
+    min-width: 10rem;
+  }
+  div {
+    text-align: center;
+  }
+  .factor,
+  .rate {
+    width: 5rem;
+  }
+  .by {
+    width: 15rem;
+  }
+  .date-time {
+    width: 10rem;
+  }
+}
+.title-area {
+  display: flex;
+  h2 {
+    display: inline-block;
+    flex: 1 1 auto;
+  }
+}
