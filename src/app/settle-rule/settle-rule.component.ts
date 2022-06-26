@@ -42,14 +42,6 @@ export class SettleRuleComponent implements OnInit {
   ngOnInit(): void {
     this.mainService.changeTitle('Voyager > Settlement rule');
   }
-  channelTypes: SelectOption[] = [
-    { value: '전체', code: '*' },
-    { value: '오프라인', code: 'QUATTRO' },
-    { value: '오프라인 글로벌', code: 'QUATTRO_GLOBAL' },
-    { value: '온라인 글로벌', code: 'GLOBAL_ONLINE' },
-    { value: 'QR택시', code: 'QR_TAXI' },
-    { value: 'GKA', code: 'GKA' },
-  ];
 
   paymentMethodType: SelectOption[] = [
     { value: '전체', code: '*' },

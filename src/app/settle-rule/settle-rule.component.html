@@ -10,17 +10,7 @@
     </button>
   </mat-card-title>
   <mat-card-content>
-    <mat-form-field>
-      <mat-label>Channel Type</mat-label>
-      <mat-select required>
-        <mat-option
-          *ngFor="let channelType of channelTypes"
-          [value]="channelType.code"
-        >
-          {{ channelType.value }}
-        </mat-option>
-      </mat-select>
-    </mat-form-field>
+    <app-channel-type></app-channel-type>
     &nbsp;
     <mat-form-field>
       <mat-label>CID</mat-label>

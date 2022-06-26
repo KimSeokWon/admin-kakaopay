@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PartnerComponent } from './partner/partner.component';
 import { MainComponent } from './main/main.component';
 import { SettleRuleComponent } from './settle-rule/settle-rule.component';
+import { DataFlowComponent } from './data-flow/data-flow.component';
 const routes: Routes = [
   {
     path: '',
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: 'settle-rule.html',
     component: SettleRuleComponent,
+  },
+  {
+    path: 'data-flow.html',
+    component: DataFlowComponent,
   },
 ];
 

@@ -33,7 +33,7 @@
   </mat-toolbar>
 </div>
 <mat-drawer-container class="example-container" autosize>
-  <mat-drawer #drawer class="example-sidenav" mode="over">
+  <mat-drawer #drawer class="example-sidenav" mode="side">
     <mat-list role="list">
       <div mat-subheader>
         정산 베이스<span class="abbr">(Settlement base)</span>
@@ -77,6 +77,13 @@
       <mat-list-item role="listitem"
         ><mat-icon mat-list-icon color="primary">folder</mat-icon>차액정산
         룰</mat-list-item
+      >
+      <div mat-subheader>모니터링<span class="abbr">(monitering)</span></div>
+      <mat-list-item role="listitem"
+        ><a routerLink="/data-flow.html">
+          <mat-icon mat-list-icon color="primary">folder</mat-icon>데이터
+          흐름</a
+        ></mat-list-item
       >
     </mat-list>
   </mat-drawer>
