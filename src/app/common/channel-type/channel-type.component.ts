@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MatCheckboxChange } from '@angular/material/checkbox';
 
 interface SelectOption {
   value: string;
@@ -22,8 +21,6 @@ export class ChannelTypeComponent implements OnInit {
     { value: 'GKA', code: 'GKA', default: false },
   ];
   selectedValue?: string;
-
-  constructor() {}
 
   ngOnInit(): void {
     this.channelTypes

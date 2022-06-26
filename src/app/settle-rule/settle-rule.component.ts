@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../main.service';
-import { MatCheckboxChange } from '@angular/material/checkbox';
 
 interface SelectOption {
   value: string;
