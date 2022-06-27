@@ -1,0 +1,11 @@
+<mat-form-field>
+  <mat-label>Channel Type</mat-label>
+  <mat-select [value]="selectedValue" name="channel-type" required>
+    <mat-option
+      *ngFor="let channelType of channelTypes"
+      [value]="channelType.code"
+    >
+      {{ channelType.value }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
