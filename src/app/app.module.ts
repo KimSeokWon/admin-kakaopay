@@ -26,6 +26,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { DataFlowComponent } from './data-flow/data-flow.component';
 import { ChannelTypeComponent } from './common/channel-type/channel-type.component';
+import { environment } from '../environments/environment';
+import { initializeApp } from 'firebase/app';
+
+initializeApp(environment.firebase);
 
 @NgModule({
   declarations: [
